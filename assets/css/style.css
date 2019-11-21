@@ -1,0 +1,145 @@
+/* Color Theme Swatches in Hex */
+.Fabric-London-posters-1-hex {
+  color: #f2ea7e;
+}
+.Fabric-London-posters-2-hex {
+  color: #f2ca80;
+}
+.Fabric-London-posters-3-hex {
+  color: #d9734e;
+}
+.Fabric-London-posters-4-hex {
+  color: #bf604b;
+}
+.Fabric-London-posters-5-hex {
+  color: #8c423b;
+}
+/* Color Theme Swatches in RGBA */
+.Fabric-London-posters-1-rgba {
+  color: rgba(242, 234, 125, 1);
+}
+.Fabric-London-posters-2-rgba {
+  color: rgba(242, 202, 128, 1);
+}
+.Fabric-London-posters-3-rgba {
+  color: rgba(216, 115, 78, 1);
+}
+.Fabric-London-posters-4-rgba {
+  color: rgba(191, 95, 74, 1);
+}
+.Fabric-London-posters-5-rgba {
+  color: rgba(140, 65, 58, 1);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  background: rgb(49, 49, 49);
+}
+#game {
+  background: #bf604b;
+  margin: 2.5rem;
+  padding: 1rem;
+  min-height: 45rem;
+  border-radius: 2rem;
+}
+.game-content {
+  display: flex;
+  justify-content: space-around;
+}
+.player-1,
+.player-2,
+.display-results {
+  background: #f2ca80;
+  padding: 1.5rem;
+  border-radius: 2rem;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.67);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.67);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.67);
+}
+h1 {
+  font-size: 6.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #f2ea7e;
+}
+h3 {
+  font-size: 4rem;
+  text-align: center;
+  padding: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #8c423b;
+}
+button {
+  outline: none;
+  border: none;
+  font-size: 2.2rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  background: #bf604b;
+  color: #f2ea7e;
+}
+button:hover {
+  cursor: pointer;
+}
+.score {
+  font-size: 2rem;
+  color: #8c423b;
+  padding: 2.5rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+.display-results {
+  color: #8c423b;
+  font-size: 2.4rem;
+}
+.chosen span {
+  margin: 0 1rem;
+}
+.winner {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+.winner span {
+  font-size: 2.6rem;
+}
+#chat {
+  background: #d9734e;
+  margin: -6rem 2.5rem 2.5rem 2.5rem;
+  padding: 2.5rem;
+  position: relative;
+  border-radius: 2rem;
+}
+.chat-room {
+  padding: 1.5rem;
+  margin: 1.5rem;
+  background: #f2ca80;
+  font-size: 1.8rem;
+  border-radius: 2rem;
+  overflow-y: auto;
+  max-height: 20rem;
+  border: 0.5rem solid #8c423b;
+}
+.chat {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+}
+.chat:nth-child(odd) {
+  background: #8c423b;
+  color: #f2ea7e;
+}
+.chat:nth-child(even) {
+  background: #d9734e;
+  color: #f2ea7e;
+}
+::-webkit-scrollbar {
+  display: none;
+}
