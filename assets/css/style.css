@@ -58,6 +58,7 @@ body {
   background: #f2ca80;
   padding: 1.5rem;
   border-radius: 2rem;
+  margin-bottom: 5rem;
   -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.67);
   -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.67);
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.67);
@@ -99,8 +100,12 @@ button:hover {
   color: #8c423b;
   font-size: 2.4rem;
 }
+.chosen {
+  display: flex;
+  flex-direction: column;
+}
 .chosen span {
-  margin: 0 1rem;
+  margin: 1rem;
 }
 .winner {
   display: flex;
@@ -142,4 +147,17 @@ button:hover {
 }
 ::-webkit-scrollbar {
   display: none;
+}
+#message {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+#message-input {
+  padding: 0.5rem;
+  margin: 1rem;
+  font-size: 1.8rem;
+}
+#message-send {
+  font-size: 1.8rem;
 }
