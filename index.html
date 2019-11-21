@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <div class="game">
+      <h1>Rock Paper Scissors Multiplayer</h1>
+      <div class="player-1">
+        <h3>Player One</h3>
+        <div class="options">
+          <span id="rock-1">Rock</span>
+          <span id="paper-1">Paper</span>
+          <span id="scissors-1">Rock</span>
+        </div>
+        <div class="score">
+          <span>Wins: <span id="wins-1">1</span> </span>
+          <span>Losses: <span id="loss-1">1</span> </span>
+        </div>
+      </div>
+      <div class="player-2">
+        <h3>Player Two</h3>
+        <div class="options">
+          <span id="rock-2">Rock</span>
+          <span id="paper-2">Paper</span>
+          <span id="scissors-2">Rock</span>
+        </div>
+        <div class="score">
+          <span>Wins: <span id="wins-2">1</span> </span>
+          <span>Losses: <span id="loss-2">1</span> </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/7.4.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/7.4.0/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
